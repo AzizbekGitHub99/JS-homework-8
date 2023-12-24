@@ -1,0 +1,82 @@
+Homework 8
+
+8 - darsning rejasi quyidagich: 
+1.	String;
+2.	String methods;
+3.	Search methods;
+
+String:
+Stringni elon qilishni 3xil usuli bor:
+1.	doubleQuote - "O'zbekiston buyuk davlat !"
+2.	singleQuote - '"AP" -> Abdulaziz Programmer'
+3.	backtics - `O'zbekiston "buyuk" davlat`
+
+Using slesh:
+1.	\ `
+2.	\ “
+3.	\\
+4.	\n – htmldigi brni vazifasini bajaradi
+5.	\t – bitta tab oldinga surib beradi
+
+Back-Tics:
+Backtics ni 3xil nomi bor:
+1.	Template literals
+2.	Template Strings
+3.	String Templates
+
+String interpolation:
+Interpolation – bu turli xil maqsadlar uchun Stringda o'zgaruvchilardan foydalanish.
+
+Length:
+Length – bu uzunlik degani. str.length => bu "str" satrning uzunligi.
+
+Accessing:
+Accessing bu string ichidigi elementlani indexini kiritsek ushani ushlab olishga yordam beradi.
+
+Comparison:
+Comparison – bu taqqoslash degani. Misol uchun Azizbek bilan Elyorbek berilgan bosa UTF – 16 jadvalida qaysi birini birinchi belgisini raqami kotta bo'sa usha kotta bo'ladi.
+
+Iteration:
+Stringda itaratsa qimoqchi bose biza log ga chiqarvotkanda indexini yozishimiz kere. Misol uchun str dgan nom ozgaruvchimiz bor ushani logga chiqarvotkanda log(str[i]) shunaqa qilib yozishimz kere boladi.
+
+Spread Operator:
+Spread Operator stringda har bitta xarfni orasidan bosh joy tashlab chiqarib beradi arraynikidan farqi shu.
+
+String methods:
+1.	slice – bu berilgan indexni ichidigilarini chiqaradi lekin misol uchun 3 bilan 7 bersak 7chi indexini chiqarmidi. Manfiy qiymat bersak boladi.
+2.	substring – bu slice bilan bir xil faqat manfiy qiymat qabul qimidi.
+3.	toLowerCase – bu elementlani hammasini kichkina xarfga ozgartirib beradi.
+4.	toUpperCase – bu elementlani hammasini kotta xarfga ozgartirib beradi.
+5.	replace – buni manosi sozni sozga almashtirish. Bu faqat birinchi uchraganga almashtirib beradi.
+6.	replaceAll – bu replace bilan bir xil faqat usha berilgan sozga almashtirmoqchi bogan sozimizni hammasiga ozgaritirb beradi.
+7.	concat – bu element qoshish va qoshilgandan keyn oxiridan chiqadi.
+8.	padStart – bu agar berilgan uzunlig bolmasa element kirgizssak usha bilan boshidan qoshib toldirib beradi.
+9.	padEnd – bu agar berilgan uzunlig bolmasa element kirgizsak usha bilan oxiridan toldirib beradi.
+10.	 trim – buni vazifani ikkta yondan agar bosh joy bolsa ushani yoqotadi.
+11.	 trimStart – buni vazifasi trimniki bilan bir xil faqat bu boshidigi bosh joyni yoqotadi
+12.	 trimEnd – buni vazifasi faqat orqadigi bosh joyni yoqotib beradi.
+13.	 charAt – buni vazifasi massivda berilgan elementni indexini bersak ushani bergan indeximizani elementini chiqarib beradi.
+14.	 charCodeAt – buni vazifani charAt bilan bir xil faqat bunda UTF – 16 turadigan kodini chiqarib beradi.
+15.	 repeat – buni vazifasi misol uchun Saidaziz kiritsak log ga 10ta kiritsak shu Saidazizdan 10ta chiqarib beradi ketma ket chiqadi.
+16.	 split – bu yengi massiv qaytaradi. Buni vazifasi ajratib olish. Misol uchun ajratmoqchi bosak Saidazizda a xarfi bor a xarf boyicha ajrat disak a lani ochiradida keyn chiqarilganda S, id, ziz chiqadi.
+
+Search methods:
+1.	startsWidth(), endsWidth(), includes() – bulani hammasi Boolean qaytaradi 
+startsWidth – buni vazifasi berilgan element biz kiritkan element bilan boshlansa true chiqaradi agar unaqa bomasa false chiqaradi.
+
+endsWidth – buni vazifasi starts bilan bir xil faqat bu oxiridan tekshiradi.
+
+includes – buni vazifasi berilgan elementni biza bervotkan element bor yoki yoqligini tekshiradi.
+
+indexOf(), lastIndexOf(), search() – bulani hammasi indexni topadi.
+
+indexOf – belgi kiritiladi indexOf indexini topadi uni. Agar bomasa -1 chiqaradi
+
+lastIndexOf – bu qidiruvni oxiridan boshlidi
+
+search – buni vazifasi indexOf bilan birxil faqat bu bitta argument qabul qiladi.
+
+eval():
+eval – buni vazifasi stringni ichidagi masalani ishlab beradi.
+
+
